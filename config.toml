@@ -1,0 +1,55 @@
+[ai]
+ai_similarity_enabled = false
+ai_similarity_keywords = ""
+
+[settings]
+allow_nsfw = false
+theme = "dark"
+times_to_run = 100
+opacity = 0.9
+storymode = false
+storymodemethod = 0
+storymode_max_length = 10000
+resolution_w = 1080
+resolution_h = 1920
+zoom = 1.0
+
+[settings.background]
+background_video = "minecraft"
+background_audio = "lofi"
+background_audio_volume = 0.01
+enable_extra_audio = false
+background_thumbnail = false
+background_thumbnail_font_family = "arial"
+background_thumbnail_font_size = 96
+background_thumbnail_font_color = "255,255,255"
+
+[settings.tts]
+voice_choice = "tiktok"
+random_voice = true
+elevenlabs_voice_name = "Bella"
+elevenlabs_api_key = ""
+aws_polly_voice = "Matthew"
+streamlabs_polly_voice = "Matthew"
+tiktok_voice = "en_uk_001"
+tiktok_sessionid = "c16c835d19f2a965bab6dffb77d0fd7d"
+python_voice = "1"
+py_voice_num = "2"
+no_emojis = false
+silence_duration = 0.3
+
+[reddit.creds]
+client_id = "t38phkEJlzllJGn3xaYynA"
+client_secret = "zCVi_IiHWpl5BpIh1KvY_k3rREZsnw"
+username = "bobmagn"
+password = "RGamer12"
+2fa = false
+
+[reddit.thread]
+random = false
+subreddit = "Askreddit+AskMen"
+post_id = ""
+max_comment_length = 500
+min_comment_length = 0
+post_lang = ""
+min_comments = 20

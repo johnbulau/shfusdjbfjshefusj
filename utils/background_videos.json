@@ -1,0 +1,15 @@
+{
+    "__comment": "Supported Backgrounds. Can add/remove background video here...",
+    "motor-gta": [
+        "https://www.youtube.com/watch?v=vw5L4xCPy9Q",
+        "bike-parkour-gta.mp4",
+        "Achy Gaming",
+        "center"
+    ],
+    "minecraft": [
+        "https://www.youtube.com/watch?v=5xVNs-PK38I",
+        "parkour.mp4",
+        "GianLeco",
+        "center"
+    ]
+}
