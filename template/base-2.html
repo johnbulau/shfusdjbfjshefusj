@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Render</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .flex {
+            display: flex;
+            gap: 10px;
+        }
+        .align-items-center{
+            align-items: center;
+        }
+        body {
+            background-color: transparent;
+        }
+
+        #title {
+            background-color: rgb(252, 252, 252);
+            width: 800px;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        .icon {
+            width: 58px;
+            height: 58px;
+            border-radius: 40px;
+            background-color: darkgray;
+        }
+
+        .header {
+
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            /* color: rgb(59, 59, 59); */
+            line-height: 1.1em;
+            padding-left: 5px;
+        }
+
+        h3 {
+            font-size: 23px;
+            color: rgb(59, 59, 59);
+        }
+
+        h4 {
+            color: rgb(59, 59, 59);
+        }
+
+        p {
+            font-weight: 600;
+        }
+
+        .footer img {
+            height: 30px;
+            width: 30px;
+        }
+
+        .footer {
+            margin-top: 10px;
+            gap: 40px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="title">
+        <div class="header flex">
+            <img class="icon" src="icons2\user.png" alt="">
+
+            <div class="">
+                <div class="flex align-items-center" >
+                    <h3>
+                        <!-- @YOUR_NAME -->
+                        @Minecracke
+                    </h3>
+                    <img class="icon " style="width: 30px; height: 30px" src="icons2\verified.jpg" alt="">
+                </div>
+                <h4>
+                    <!-- r/{{subreddit|default('')}} -->
+                    <div class="flex align-items-center" style="margin-left:5px">
+                        
+                        <img class="icon" style="width: 18px;height: 18px;" src="icons2\headphone.png" alt="">
+                        <h6 style="color:  rgb(152, 152, 152);font-size: 12px;">
+                           999+
+                        </h6>
+                    </div>
+
+                </h4>
+            </div>
+        </div>
+
+        <h1>
+            {{ title}}
+            <!-- What is the craziest thing that you was ever done ? -->
+        </h1>
+        <div class="footer flex align-items-center">
+            <div class="flex">
+
+                <img src="icons2/heart.png" alt="">
+
+                <p style="color: rgb(152, 152, 152);">
+                    <!-- {{upvote_num|default('99+ Upvotes')}} -->
+                    99+
+                </p>
+            </div>
+
+            <div class="flex align-items-center">
+                <img src="icons2/commnet.png" style="height: 35px ;" alt="">
+                <p style="color: rgb(152, 152, 152);">
+                    <!-- {{comment_num|default('99+ Comments')}} -->
+                    99+
+                </p>
+            </div>
+
+            <!-- <div>
+                <img src="icons/message-regular.svg" alt="">
+            </div> -->
+
+        </div>
+        <!-- <img style="width: 300px;margin-left: 200px;" src="icons/43422.svg" alt=""> -->
+    </div>
+</body>
+
+</html>

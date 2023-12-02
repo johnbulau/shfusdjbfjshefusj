@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Render</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .flex{
+            display: flex;
+            gap: 10px;
+        }
+
+        body{
+            background-color: transparent;
+        }
+
+        #title {
+            background-color: rgb(252, 252, 252);
+            width: 800px;
+            padding: 20px;
+            /* border: 2px solid black; */
+            border-radius: 10px;
+        }
+
+        .icon {
+            width: 58px;
+            height: 58px;
+            border-radius: 40px;
+            background-color: darkgray;
+        }
+        .header{
+            
+            margin-bottom: 10px;
+        }
+        h1{
+            /* color: rgb(59, 59, 59); */
+            line-height: 1.1em;
+            padding-left: 5px;
+        }
+        h3{
+            font-size: 23px;
+            color: rgb(59, 59, 59);
+   
+            margin-top: 10px
+        }
+        h4{
+            color: rgb(59, 59, 59);
+        }
+        p{
+            font-weight: 600;
+        }
+        .footer img{
+            height: 30px;
+            width: 30px;            
+        }
+        .footer{
+            margin-top: 10px;
+            gap: 40px;
+            margin-left: 10px;
+        }
+        #main_title_text
+    </style>
+</head>
+
+<body>
+
+    <div id="title">
+        <div class="header flex">
+            <img class="icon"
+                src="icons2/user.png"
+                alt="">
+
+            <div class="">
+                    <h3>
+                        Anonymous
+                    </h3>
+                    <!-- <h4>
+                       tifu
+                    </h4> -->
+            </div>
+        </div>
+        <!-- TIFU by calling in to work with the dumbest excuse ever -->
+        <h1 id="main_title_text">
+            TIFU by calling in to work with the dumbest excuse ever
+        </h1>
+        <div class="footer flex">
+            <div class="flex">
+           
+                <img style="fill:red ;" src="icons/heart-regular.svg" alt="">
+                
+                <p>
+                    212
+                </p>
+            </div>
+
+            <div class="flex">
+                <img src="icons/message-regular.svg" alt="">
+                <p>
+                    74
+                </p>
+            </div>
+
+            <!-- <div>
+                <img src="icons/message-regular.svg" alt="">
+            </div> -->
+            
+        </div>
+        <!-- <img style="width: 300px;margin-left: 200px;" src="icons/43422.svg" alt=""> -->
+    </div>
+</body>
+
+</html>

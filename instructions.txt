@@ -1,0 +1,32 @@
+INSTRUCTIONS
+
+- To change the settings of the bot change edit config.toml more info at https://reddittuber.netlify.app/docs/All-settings
+- To add new background video/audio open `utils\background_videos.json` or `utils\background_audio.json ` respectively
+
+```
+{
+    "motor-gta": [
+        "https://www.youtube.com/watch?v=vw5L4xCPy9Q",
+        "bike-parkour-gta.mp4", 
+        "Achy Gaming",
+        480
+    ],
+    ..
+    ..
+    ..
+}
+```
+
+Here the `motor-gta` is the name that you will specify in background_choice/background_audio_choice  in the config to use that media
+
+Where first link is the YouTube link if the bot does not find the video it will download it from yt
+
+The third one is the file name by which media will be saved in the asset folder (if it is missing the bot will use the youtube URL to download it)
+
+Fourth one tag you can leave empty
+
+the last one can 480
+
+
+
+
